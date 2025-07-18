@@ -43,34 +43,37 @@ Cette structure traduit aussi la structure des dossiers.
 ### 🧰 Scripts de gestion des sous-modules
 
 Ce dépôt central **PyMoX** utilise des **sous-modules Git** pour organiser ses composants (App, WebSite, Doc, Langages…).  
-Pour faciliter leur gestion, deux scripts sont fournis dans ce dépôt :
+Pour faciliter leur gestion, deux scripts sont fournis :
 
 ---
 
 #### 🔹 `init-submodules.sh` – Initialisation
 
-À exécuter **juste après avoir cloné** le dépôt central :
+Juste après avoir cloné ce dépôt central, exécuter dans le dossier **PyMox/** :
 
 ```bash
-./init-submodules.sh
+sh ./init-submodules.sh
 ```
 
-
 📦 Ce script initialise tous les sous-modules et télécharge leur contenu localement.
+
+→ Cela va **clôner TOUS les dépôts liés** en tant que sous-modules.
+
+---
 
 #### 🔹 `update-submodules.sh` – Mise à jour
 
 À exécuter régulièrement pour **synchroniser les sous-modules** avec leurs dernières versions distantes :
 
 ```bash
-./update-submodules.sh
+sh ./update-submodules.sh
 ```
 
 🔄 Ce script met à jour les références des sous-modules vers les derniers commits disponibles dans leurs dépôts respectifs.
 
 #### 🛠️ Astuce technique
 
-Avant d’exécuter les scripts, assurez-vous qu’ils sont bien exécutables (Linux):
+Avant de pouvoir exécuter les scripts, si sous **Linux**, assurez-vous qu’ils soient bien exécutables:
 
 ```bash
 chmod +x init-submodules.sh update-submodules.sh
