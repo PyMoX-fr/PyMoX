@@ -38,7 +38,43 @@ flowchart TD
   click Mj "https://github.com/PyMoX-fr/Mojo" _blank
 ```
 
-Cette structure traduit aussi la structure des dossiers de ce dépôt central.
+Cette structure traduit aussi la structure des dossiers.
+
+### 🧰 Scripts de gestion des sous-modules
+
+Ce dépôt central **PyMoX** utilise des **sous-modules Git** pour organiser ses composants (App, WebSite, Doc, Langages…).  
+Pour faciliter leur gestion, deux scripts sont fournis dans ce dépôt :
+
+---
+
+#### 🔹 `init-submodules.sh` – Initialisation
+
+À exécuter **juste après avoir cloné** le dépôt central :
+
+```bash
+./init-submodules.sh
+```
+
+
+📦 Ce script initialise tous les sous-modules et télécharge leur contenu localement.
+
+#### 🔹 `update-submodules.sh` – Mise à jour
+
+À exécuter régulièrement pour **synchroniser les sous-modules** avec leurs dernières versions distantes :
+
+```bash
+./update-submodules.sh
+```
+
+🔄 Ce script met à jour les références des sous-modules vers les derniers commits disponibles dans leurs dépôts respectifs.
+
+#### 🛠️ Astuce technique
+
+Avant d’exécuter les scripts, assurez-vous qu’ils sont bien exécutables (Linux):
+
+```bash
+chmod +x init-submodules.sh update-submodules.sh
+```
 
 ## 🔍 Objectifs
 
@@ -51,6 +87,8 @@ Cette structure traduit aussi la structure des dossiers de ce dépôt central.
 ## 🤝 Contributions
 
 Chaque dépôt est ouvert aux suggestions, améliorations et retours. N’hésite pas à ouvrir une issue ou proposer une pull request dans le dépôt concerné.
+
+
 
 ---
 
