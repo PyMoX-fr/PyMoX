@@ -1,0 +1,27 @@
+[submodule "App"]
+    path = App
+    url = https://github.com/PyMoX-fr/App.git
+
+[submodule "WebSite"]
+    path = WebSite
+    url = https://github.com/PyMoX-fr/WebSite.git
+
+[submodule "Doc"]
+    path = Doc
+    url = https://github.com/PyMoX-fr/Doc.git
+
+[submodule "Langages/Python"]
+    path = Langages/Python
+    url = https://github.com/PyMoX-fr/Python.git
+
+[submodule "Langages/Django"]
+    path = Langages/Django
+    url = https://github.com/PyMoX-fr/Django.git
+
+[submodule "Langages/FletX"]
+    path = Langages/FletX
+    url = https://github.com/PyMoX-fr/FletX.git
+
+[submodule "Langages/Mojo"]
+    path = Langages/Mojo
+    url = https://github.com/PyMoX-fr/Mojo.git
