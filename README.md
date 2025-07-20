@@ -1,9 +1,6 @@
-# PyMoX
-Dépôt Officiel du concept PyMoX
-
 # 🧭 Projet Central – Portail des Dépôts
 
-Bienvenue dans le dépôt central de l'écosystème **PyMoX**-fr, pour des études et projets liés aux langages tels que Python, Django, Flet, FletX, et Mojo (Liste non exhaustive...).
+Bienvenue dans le Dépôt Officiel et Central de l'écosystème **PyMoX**-fr, pour des études et projets liés aux langages tels que Python, Django, Flet, FletX, et Mojo (Liste non exhaustive...).
 
 Ce dépôt central regroupe les dépôts indépendants liés à ces sujets, ainsi que ce projet lui-même, entièrement open-source (sous licence MIT), composé principalement de son application mobile, de son site web et d’une documentation collaborative.
 
